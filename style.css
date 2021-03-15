@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-title h1 {
+  font-size: 4.2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.main-title h2 {
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.counter {
+  text-align: center;
+  font-size: 4.2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 1.5rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 16%;
+  border: none;
+  border-radius: 0.1rem;
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
